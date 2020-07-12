@@ -1,0 +1,157 @@
+@media only screen and (min-device-width: 375px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .leftContainer {
+    margin-top: 1%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .child {
+    color: #000000;
+    background-color: #EFEFEF;
+    border-left: 0.5em solid;
+    margin-bottom: 1%;
+  }
+
+  .child1 {
+    border-left-color: #6F98A8;
+  }
+
+  .child2 {
+    border-left-color: #2B8EAD;
+  }
+
+  .child3 {
+    border-left-color: #2F454E;
+  }
+
+  .child4 {
+    border-left-color: #2B8EAD;
+  }
+
+  .child5 {
+    border-left-color: #2F454E;
+  }
+
+  .child6 {
+    border-left-color: #BFBFBF;
+  }
+
+  .child7 {
+    border-left-color: #BFBFBF;
+  }
+
+  .child8 {
+    border-left-color: #6F98A8;
+  }
+
+  .child9 {
+    border-left-color: #2F454E;
+  }
+
+  .button {
+    width: 30%;
+  }
+}
+
+
+@media only screen and (min-device-width: 960px) {
+  .wrapper {
+    display: grid;
+    height: 50%;
+    grid-template-columns: 80% 20%;
+  }
+
+  .leftContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .child {
+    color: #FFFFFF;
+  }
+
+  .child1 {
+    background-color: #6F98A8;
+
+  }
+
+  .child2 {
+    background-color: #2B8EAD;
+  }
+
+  .child3 {
+    background-color: #2F454E;
+  }
+
+  .child4 {
+    background-color: #2B8EAD;
+  }
+
+  .child5 {
+    background-color: #2F454E;
+  }
+
+  .child6 {
+    background-color: #BFBFBF;
+  }
+
+  .child7 {
+    background-color: #BFBFBF;
+  }
+
+  .child8 {
+    background-color: #6F98A8;
+  }
+
+  .child9 {
+    background-color: #2F454E;
+  }
+
+  .button {
+    width: 50%;
+  }
+
+}
+
+body {
+  height: 1080px;
+}
+
+.leftContainer {
+  font-size: xx-large;
+  margin-right: 1%;
+  display: grid;
+}
+
+.child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vw;
+}
+
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shuffle {
+  margin-bottom: 2%;
+}
+
+.footer {
+  text-align: center;
+}
+
+.button {
+  background-color: #2B8EAD;
+  color: #FFFFFF;
+  border-radius: 1em;
+  min-height: 4em;
+}
+
